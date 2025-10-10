@@ -555,8 +555,7 @@
       "$mod" = "SUPER";
       exec-once = "waybar";
       monitor = [
-        "DP-4, 2560x1440, 2560x0, 1"
-        "HDMI-A-3, 2560x1440, 0x0, 1"
+        "HDMI-A-3, 3840x2160, 0x0, 1"
       ];
       general = {
         border_size = 2;
