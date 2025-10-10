@@ -630,6 +630,11 @@
       "SUPER_SHIFT, S, exec, hyprshot -m region --clipboard-only" # select a region
       ];
 
+      bindm = [
+        "$mod, mouse:272, movewindow"
+        "$mod, mouse:273, resizewindow"
+      ];
+
       plugin.hyprbars = {
 	bar_color = "rgb(2a2a2a)";
         bar_height = 28;
