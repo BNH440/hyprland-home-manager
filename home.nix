@@ -606,6 +606,7 @@
       "$mod, C, killactive"
       "$mod, C, killactive"
       ", F11, fullscreen"
+      "$mod, F, togglefloating"
 
       # application shortcuts
       "$mod, Q, exec, kitty"
