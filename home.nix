@@ -537,8 +537,8 @@
       ];
       wallpaper = [
         #desktop Shadow
-        "HDMI-A-3, /home/b/bl/blakeh/remote/hyprland-home-manager/summer-day.png"
-        ", /home/b/bl/blakeh/remote/hyprland-home-manager/summer-night.jpg"
+        "HDMI-A-3, /home/b/bl/blakeh/remote/hyprland-home-manager/night_sky-Blake_Haug.png"
+        ", /home/b/bl/blakeh/remote/hyprland-home-manager/summer-day.jpg"
       ];
     };
   };
