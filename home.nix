@@ -3,8 +3,8 @@
 {
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
-  home.username = "jaysa";
-  home.homeDirectory = "/home/j/ja/jaysa";
+  home.username = "blakeh";
+  home.homeDirectory = "/home/b/bl/blakeh";
 
   # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
@@ -112,7 +112,7 @@
 #	};
       };
       profiles = {
-       "jaysa" = {
+       "blakeh" = {
          id = 0;
          isDefault = true;
 
@@ -150,7 +150,7 @@
 	 };
 
          settings = {
-           "browser.startup.homepage" = "https://jaysa.net"; 
+           "browser.startup.homepage" = "https://blakehaug.com";
          };
 
 	 extensions.packages = with inputs.firefox-addons.packages.${pkgs.system}; [
@@ -470,8 +470,8 @@
     };
     git = {
       enable = true;
-      userName = "jaysa68";
-      userEmail = "gh@jaysa.net";
+      userName = "bnh440";
+      userEmail = "blake@blakehaug.com";
     };
     neovim = {
       enable = true;
@@ -528,21 +528,20 @@
   services.hyprpaper = {
     enable = true;
     settings = {
-      preload = [ 
-        "/home/j/ja/jaysa/remote/hyprland-home-manager/summer-night.png"
-        "/home/j/ja/jaysa/remote/hyprland-home-manager/summer-day.png"
-        "/home/j/ja/jaysa/remote/hyprland-home-manager/close-panty.png"
-        "/home/j/ja/jaysa/remote/hyprland-home-manager/close-stocking.jpg"
-        "/home/j/ja/jaysa/remote/hyprland-home-manager/nemupan-steam-autumn.jpg"
-        "/home/j/ja/jaysa/remote/hyprland-home-manager/nemupan-autumn-picnic.png"
+      preload = [
+        "/home/b/bl/blakeh/remote/hyprland-home-manager/summer-night.png"
+        "/home/b/bl/blakeh/remote/hyprland-home-manager/summer-day.png"
+        "/home/b/bl/blakeh/remote/hyprland-home-manager/nemupan-steam-autumn.jpg"
+        "/home/b/bl/blakeh/remote/hyprland-home-manager/nemupan-autumn-picnic.png"
+        "/home/b/bl/blakeh/remote/hyprland-home-manager/night_sky-Blake_Haug.png"
       ];
       wallpaper = [ 
         #desktop Shadow
-        "HDMI-A-3, /home/j/ja/jaysa/remote/hyprland-home-manager/nemupan-steam-autumn.jpg"
-        "DP-4, /home/j/ja/jaysa/remote/hyprland-home-manager/nemupan-autumn-picnic.png"
+        "HDMI-A-3, /home/b/bl/blakeh/remote/hyprland-home-manager/nemupan-steam-autumn.jpg"
+        "DP-4, /home/b/bl/blakeh/remote/hyprland-home-manager/nemupan-autumn-picnic.png"
 
-        "HDMI-A-2, /home/j/ja/jaysa/remote/hyprland-home-manager/summer-day.png"
-        ", /home/j/ja/jaysa/remote/hyprland-home-manager/summer-night.jpg"
+        "HDMI-A-2, /home/b/bl/blakeh/remote/hyprland-home-manager/summer-day.png"
+        ", /home/b/bl/blakeh/remote/hyprland-home-manager/summer-night.jpg"
       ];
     };
   };
