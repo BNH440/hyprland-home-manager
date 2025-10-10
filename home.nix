@@ -160,7 +160,7 @@
 	 ];
 
          extraConfig = ''
-	   user_pref("extensions.autoDisableScopes", 0); 
+	   user_pref("extensions.autoDisableScopes", 0);
 	   user_pref("extensions.enabledScopes", 15);
 	 '';
 
@@ -178,16 +178,16 @@
         /*base background color*/
         @define-color bg_main rgba(25, 25, 25, 0.65);
         @define-color bg_main_tooltip rgba(0, 0, 0, 0.7);
-        
-        
+
+
         /*base background color of selections */
         @define-color bg_hover rgba(200, 200, 200, 0.3);
         /*base background color of active elements */
         @define-color bg_active rgba(100, 100, 100, 0.5);
-        
+
         /*base border color*/
         @define-color border_main rgba(255, 255, 255, 0.2);
-        
+
         /*text color for entries, views and content in general */
         @define-color content_main white;
         /*text color for entries that are unselected */
@@ -351,7 +351,7 @@
       settings = {
         mainBar = {
           position = "bottom";
-	  modules-left = [ 
+	  modules-left = [
 	    "custom/menu"
 	    "image#nautilus-icon"
 	    "image#kitty-icon"
@@ -360,8 +360,8 @@
 	    "hyprland/workspaces"
 	    "wlr/taskbar"
 	  ];
-	  modules-right = [ 
-	    "tray" 
+	  modules-right = [
+	    "tray"
 	    "custom/paper"
 	    "pulseaudio"
 	    "hyprland/language"
@@ -535,12 +535,9 @@
         "/home/b/bl/blakeh/remote/hyprland-home-manager/nemupan-autumn-picnic.png"
         "/home/b/bl/blakeh/remote/hyprland-home-manager/night_sky-Blake_Haug.png"
       ];
-      wallpaper = [ 
+      wallpaper = [
         #desktop Shadow
-        "HDMI-A-3, /home/b/bl/blakeh/remote/hyprland-home-manager/nemupan-steam-autumn.jpg"
-        "DP-4, /home/b/bl/blakeh/remote/hyprland-home-manager/nemupan-autumn-picnic.png"
-
-        "HDMI-A-2, /home/b/bl/blakeh/remote/hyprland-home-manager/summer-day.png"
+        "HDMI-A-3, /home/b/bl/blakeh/remote/hyprland-home-manager/summer-day.png"
         ", /home/b/bl/blakeh/remote/hyprland-home-manager/summer-night.jpg"
       ];
     };
