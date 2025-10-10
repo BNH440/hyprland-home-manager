@@ -156,6 +156,7 @@
 	 extensions.packages = with inputs.firefox-addons.packages.${pkgs.system}; [
 	   ublock-origin
 	   bitwarden
+		 darkreader
 	   gruvbox-dark-theme
 	 ];
 
