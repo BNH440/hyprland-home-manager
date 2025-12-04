@@ -150,7 +150,7 @@
 	 };
 
          settings = {
-           "browser.startup.homepage" = "http://printhost.ocf.berkeley.edu/jobs/|http://logjam/|http://papercut/|http://pagefault/";
+           "browser.startup.homepage" = "http://printhost.ocf.berkeley.edu/jobs/|http://logjam/|http://papercut/|http://pagefault/|http://169.229.226.96";
          };
 
 	 extensions.packages = with inputs.firefox-addons.packages.${pkgs.system}; [
