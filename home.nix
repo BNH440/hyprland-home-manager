@@ -637,7 +637,7 @@
 
       plugin.hyprbars = {
 	bar_color = "rgb(2a2a2a)";
-        bar_height = 28;
+        bar_height = 0;
 	col_text = "rgba(ffffffdd)";
 	bar_text_size = 11;
 	bar_text_font = "Ubuntu Nerd Font";
