@@ -324,6 +324,9 @@
         #pulseaudio:hover {
    	  background: @bg_hover;
         }
+	#custom-paper {
+	  padding-right: 15px;
+	}
 	#language {
           font-size: 20px;
 	  padding-left: 5px;
