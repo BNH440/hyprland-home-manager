@@ -474,8 +474,12 @@
     };
     git = {
       enable = true;
-      userName = "bnh440";
-      userEmail = "blake@blakehaug.com";
+      settings = {
+	user = {
+	  name = "Blake Haug";
+	  email = "blake@blakehaug.com";
+	};
+      };
     };
     neovim = {
       enable = true;
