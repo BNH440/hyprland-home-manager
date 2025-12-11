@@ -544,16 +544,10 @@
     enable = true;
     settings = {
       preload = [
-        "/home/b/bl/blakeh/remote/hyprland-home-manager/summer-night.png"
-        "/home/b/bl/blakeh/remote/hyprland-home-manager/summer-day.png"
-        "/home/b/bl/blakeh/remote/hyprland-home-manager/nemupan-steam-autumn.jpg"
-        "/home/b/bl/blakeh/remote/hyprland-home-manager/nemupan-autumn-picnic.png"
         "/home/b/bl/blakeh/remote/hyprland-home-manager/night_sky-Blake_Haug.png"
       ];
       wallpaper = [
-        #desktop Shadow
-        "HDMI-A-3, /home/b/bl/blakeh/remote/hyprland-home-manager/night_sky-Blake_Haug.png"
-        ", /home/b/bl/blakeh/remote/hyprland-home-manager/summer-day.jpg"
+        ", /home/b/bl/blakeh/remote/hyprland-home-manager/night_sky-Blake_Haug.png"
       ];
     };
   };
