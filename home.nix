@@ -1,6 +1,10 @@
 { inputs, config, pkgs, ... }:
 
 {
+  imports = [
+    inputs.nix4nvchad.homeManagerModule
+  ];
+
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
   home.username = "blakeh";
@@ -87,6 +91,7 @@
   gtk.font.size = 32;
 
   programs = {
+    nvchad.enable = true;
     firefox = {
       enable = true;
       policies = {
@@ -489,7 +494,7 @@
       };
     };
     neovim = {
-      enable = true;
+      enable = false;
       defaultEditor = true;
       extraConfig = ''
         set background=dark
