@@ -50,6 +50,8 @@
     #   org.gradle.console=verbose
     #   org.gradle.daemon.idletimeout=3600000
     # '';
+
+    #".ssh".source = "${toString config.home.homeDirectory}/remote/.ssh";
   };
 
   # Home Manager can also manage your environment variables through
@@ -479,6 +481,11 @@
 	  name = "Blake Haug";
 	  email = "blake@blakehaug.com";
 	};
+        commit.gpgsign = true;
+        gpg.format = "ssh";
+        gpg.ssh.allowedsignersfile = "${toString config.home.homeDirectory}/.ssh/allowed_signers";
+        user.signingkey = "${toString config.home.homeDirectory}/.ssh/id_ed25519_sk.pub";
+        init.defaultbranch = "main";
       };
     };
     neovim = {
